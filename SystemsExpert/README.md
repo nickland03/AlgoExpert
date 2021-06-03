@@ -1,5 +1,5 @@
-### SystemsExpert Course Summary
-#### Lessons learnt hitherto
+### SystemsExpert Course | Lessons learnt hitherto
+#### Design Fundamentals
 - Client-Server model
 - Network Protocols
 - Storage 
@@ -8,9 +8,23 @@
 - Caching
 - Proxies
 - Load Balancers
+- Hashing
+- Relational Databases
+- Key-Value Stores
+- Specialized Storage Paradigms
+- Replication And Sharding
+- Leader Election
+- Peer-To-Peer Networks
+- Polling And Streaming
+- Configuration
+- Rate Limiting
+- Logging And Monitoring
+- Publish/Subscribe Pattern
+- MapReduce
+- Security And HTTPS
+- API Design
 
 #### Agenda
-- Finish all classes
 - Pass the quiz exam with 50/50 
 - Go through the "Design Questions" Section, regarding how to *design* and *scale* systems 
   - Design A Code-Deployment System
