@@ -1,5 +1,5 @@
 ### SystemsExpert Course | Lessons learnt hitherto
-#### Design Fundamentals
+#### System Design Fundamentals
 - Client-Server model
 - Network Protocols
 - Storage 
@@ -32,9 +32,9 @@
 - Design The Uber API
 - Design Slack
 - Design Airbnb
+- Design Google Drive
 
-#### Agenda
+### Agenda
 - Pass the quiz exam with 50/50 
 - Go through the "Design Questions" Section, regarding how to *design* and *scale* systems 
   - Design A Stockbroker
-  - Design Google Drive
