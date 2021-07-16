@@ -33,8 +33,7 @@
 - Design Slack
 - Design Airbnb
 - Design Google Drive
+- Design A Stockbroker
 
 ### Agenda
 - Pass the quiz exam with 50/50 
-- Go through the "Design Questions" Section, regarding how to *design* and *scale* systems 
-  - Design A Stockbroker
