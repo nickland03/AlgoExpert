@@ -1,4 +1,6 @@
-### SystemsExpert Course | Lessons learnt hitherto
+### Certificate: https://certificate.algoexpert.io/SE-071ff5fc94
+
+### SystemsExpert Course | All Classes
 #### System Design Fundamentals
 - Client-Server model
 - Network Protocols
@@ -35,6 +37,3 @@
 - Design Google Drive
 - Design A Stockbroker
 - Design Facebook News Feed
-
-### Agenda
-- Pass the quiz exam with 50/50 
