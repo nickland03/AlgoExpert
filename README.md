@@ -1,2 +1,2 @@
 # AlgoExpert
-AlgoExpert Course | Workspace
+AlgoExpert | Workspace
