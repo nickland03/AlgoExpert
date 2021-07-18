@@ -1,4 +1,4 @@
-### Certificate: [Click here](https://certificate.algoexpert.io/SE-071ff5fc94/?target=_blank)
+### Certificate: [Click here](https://certificate.algoexpert.io/SE-071ff5fc94?target=_blank)
 
 ### SystemsExpert Course | All Classes
 #### System Design Fundamentals
