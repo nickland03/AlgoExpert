@@ -1,17 +1,18 @@
 package main
 
 import (
-	"sort"
+    "sort"
 )
 
 func SortedSquaredArray(array []int) []int {
-	var squaredArray []int
+    arrLength := len(array)
+    squaredArray := make([]int, arrLength)
 
-	for i := len(array)-1; i >= 0; i-- {
-		squaredNum := array[i] * array[i]
-		squaredArray = append(squaredArray, squaredNum)
-	}
+    for i := 0; i < arrLength ; i++ {
+        squaredNum := array[i] * array[i]
+        squaredArray[i] = squaredNum
+    }
 
-	sort.Ints(squaredArray)
-	return squaredArray
+    sort.Ints(squaredArray)
+    return squaredArray
 }
