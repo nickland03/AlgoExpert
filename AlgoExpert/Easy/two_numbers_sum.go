@@ -1,13 +1,22 @@
 package main
 
-func TwoNumberSum(array []int, target int) []int {
-	for i := 0; i < len(array)-1; i++ {
-		for j := i + 1; j < len(array); j++ {
-			if array[i] + array[j] == target {
-				return []int{array[i], array[j]}
-			}
-		}
-	}
+import "sort"
 
-	return []int{}
+func TwoNumberSum(array []int, target int) []int {
+    sort.Ints(array)
+    left := 0
+    right := len(array) - 1
+
+    for left < right {
+        currSum := array[left] + array[right]
+        if currSum == target {
+            return []int{array[left], array[right]}
+        } else if currSum < target {
+            left += 1
+        } else {
+            right -= 1
+        }
+    }
+
+    return []int{}
 }
