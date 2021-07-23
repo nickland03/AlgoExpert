@@ -1,5 +1,7 @@
 package main
 
+import "sort"
+
 func FindThreeLargestNumbers(array []int) []int {
     a := array[0]
     b := array[1]
@@ -16,10 +18,12 @@ func FindThreeLargestNumbers(array []int) []int {
         }
     }
 
-    return SortThreeNumbers(a,b,c)
+    // custom method to reorder 3 numbers in an array
+    // or use SortThreeNumbers2(a,b,c) which uses a a built-in method
+    return SortThreeNumbers1(a, b, c)
 }
 
-func SortThreeNumbers(a, b, c int) []int {
+func SortThreeNumbers1(a, b, c int) []int {
     s := make([]int, 3)
 
     if a <= b && a <= c {
@@ -45,6 +49,13 @@ func SortThreeNumbers(a, b, c int) []int {
             s = []int{c, b, a}
         }
     }
+
+    return s
+}
+
+func SortThreeNumbers2(a, b, c int) []int {
+    s := []int{a, b, c}
+    sort.Ints(s)
 
     return s
 }
