@@ -1,6 +1,6 @@
 ### Certificate: [Click here](https://certificate.algoexpert.io/SE-071ff5fc94)
 
-### SystemsExpert Course | All Classes
+### SystemsExpert Course
 #### System Design Fundamentals
 - Client-Server model
 - Network Protocols
